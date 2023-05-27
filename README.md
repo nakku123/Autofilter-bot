@@ -122,7 +122,7 @@ clear_junk_group - clear add removed group or deactivated groups on db
 
 ## TELAGRAM SUPPORT 
 
-* [![MKN BOTZ](https://img.shields.io/static/v1?label=MKN&message=BOTZ&color=critical)](https://t.me/mkn_bots_updates)
+* [![𝑬𝒏𝒈𝒍𝒊𝒔𝒉𝒌𝒂𝒂𝒓𝒂𝒏](https://img.shields.io/static/v1?label=𝑬𝒏𝒈𝒍𝒊𝒔𝒉𝒌𝒂𝒂𝒓𝒂𝒏&message=BOTZ&color=critical)](https://t.me/englishkaaran3)
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
