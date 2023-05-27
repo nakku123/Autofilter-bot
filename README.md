@@ -1,9 +1,9 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines= 𝗪𝗘𝗟𝗖𝗢𝗠𝑬+𝗧𝗢+ENGLISH KAARAN+𝐁𝐎𝐓!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗘𝗔𝗠+𝑬𝑵𝑮𝑳𝑰𝑺𝑯𝑲𝑨𝑨𝑹𝑨𝑵+𝗕𝗢𝗧!;𝗔+𝗦𝗜𝗠𝗣𝗟𝗘+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
 <p align="center">
-  <img src="Logo/PROFESSOR-BOT.jpeg" alt="MKN BOTZ LOGO">
+  <img src="Logo/Englishkaaran bot" alt="Englishkaaran bot">
 </p>
 <h1 align="center">
-  <b> 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐁𝐎𝐓</b>
+  <b> 𝑬𝑵𝑮𝑳𝑰𝑺𝑯𝑲𝑨𝑨𝑹𝑨𝑵 𝑩𝑶𝑻</b>
 </h1>
 
 [![Stars](https://img.shields.io/github/stars/MrMKN/PROFESSOR-BOT?style=flat-square&color=yellow)](https://github.com/MrMKN/PROFESSOR-BOT/stargazers)
