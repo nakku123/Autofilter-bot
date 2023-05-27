@@ -1,6 +1,6 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝑬𝑵𝑮𝑳𝑰𝑺𝑯𝑲𝑨𝑨𝑹𝑨𝑵+𝐁𝐎𝐓!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗘𝗔𝗠+𝑬𝑵𝑮𝑳𝑰𝑺𝑯𝑲𝑨𝑨𝑹𝑨𝑵+𝗕𝗢𝗧!;𝗔+𝗦𝗜𝗠𝗣𝗟𝗘+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
 <p align="center">
-  <img src="Logo/Englishkaaran bot" alt="Englishkaaran bot">
+  <img src="Logo/Englishkaaran bot" alt="https://graph.org/file/c82eb78aa14cfca0890b5.jpg">
 </p>
 <h1 align="center">
   <b> 𝑬𝑵𝑮𝑳𝑰𝑺𝑯𝑲𝑨𝑨𝑹𝑨𝑵 𝑩𝑶𝑻</b>
