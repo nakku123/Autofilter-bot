@@ -1,11 +1,11 @@
 {
-    "name": "PROFESSOR-BOT",
+    "name": "ENGLISHKAARAN-BOT",
     "description": "the telegram Autofilter bot",
-    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
+    "logo": "https://graph.org/file/c82eb78aa14cfca0890b5.jpg",
     "keywords": ["telegram", "auto-filter"],
     "stack": "container",
-    "website": "https://github.com/MrMKN/PROFESSOR-BOT",
-    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
+    "website": "https://github.com/nakku123/Autofilter-bot",
+    "repository": "https://github.com/nakku123/Autofilter-bot",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
