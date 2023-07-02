@@ -32,9 +32,9 @@ PICS = (environ.get('PICS' ,'https://graph.org/file/c82eb78aa14cfca0890b5.jpg'))
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2112711926').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '2112711926').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
@@ -86,6 +86,13 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 REQ_SUB = bool(environ.get("REQ_SUB", True))
 SESSION_STRING = environ.get("SESSION_STRING", "")
 
+# Download Tutorial Button #
+DOWNLOAD_TEXT_NAME = "👉 HOW TO DOWNLOAD 👈"
+DOWNLOAD_TEXT_URL = "https://t.me/downloadkpslink"
+
+   # Custom Caption Under Button #
+CAPTION_BUTTON = "join🔥"
+CAPTION_BUTTON_URL = "https://t.me/englishkaaranmain"
 
 
 
