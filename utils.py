@@ -424,11 +424,10 @@ def humanbytes(size):
 
 async def get_shortlink(link):
 
-    url = f'{SHORT_URL}/api'
-    params = {
-      'api': SHORT_API,
-      'url': link,
-    }
+    url = f'https://v2.kpslink.in/api'
+    params = {'api': URL_SHORTNER_WEBSITE_API,
+              'url': link,
+              }
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
@@ -437,9 +436,9 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return link
+                    return f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
     except Exception as e:
         logger.error(e)
-        return link
+        return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
 
 
