@@ -21,14 +21,14 @@ def is_enabled(value, default):
 PORT = environ.get("PORT", "8080")
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['API_ID', '9439609'])
+API_HASH = environ['API_HASH', '3a64962f1face2fc285d0bb72587b139']
+BOT_TOKEN = environ['BOT_TOKEN', '6238472589:AAGvGg8BYvHz0h-cMGNVSfwu8QRjIGT2ZVE']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://graph.org/file/c82eb78aa14cfca0890b5.jpg')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/c82eb78aa14cfca0890b5.jpg https://graph.org/file/3cf76471b1cca80e90139.jpg https://graph.org/file/6abb0b1f3338755017cff.jpg https://graph.org/file/97afb9f4979168eb90c9a.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -36,14 +36,14 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '2112711926').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001805053423')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mithun:mithun@bot.2uancfy.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
@@ -52,7 +52,7 @@ START_MESSAGE = environ.get('START_MESSAGE', '👋 𝙷𝙴𝙻𝙾 {user}\n\n�
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!')
 RemoveBG_API = environ.get("RemoveBG_API", "")
-WELCOM_PIC = environ.get("WELCOM_PIC", "")
+WELCOM_PIC = environ.get("WELCOM_PIC", "https://graph.org/file/6abb0b1f3338755017cff.jpg")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hai {user}\nwelcome to {chat}")
 PMFILTER = environ.get('PMFILTER', "True")
 G_FILTER = bool(environ.get("G_FILTER", True))
@@ -64,8 +64,8 @@ SHORT_API = environ.get("SHORT_API")
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mkn_bots_updates')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001917444916'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'memes_mithun')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 PM_IMDB = environ.get('PM_IMDB', "True")
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -85,19 +85,6 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 #request force sub
 REQ_SUB = bool(environ.get("REQ_SUB", True))
 SESSION_STRING = environ.get("SESSION_STRING", "")
-
-# Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "👉 HOW TO DOWNLOAD 👈"
-DOWNLOAD_TEXT_URL = "https://t.me/downloadkpslink"
-
-   # Custom Caption Under Button #
-CAPTION_BUTTON = "join🔥"
-CAPTION_BUTTON_URL = "https://t.me/englishkaaranmain"
-
-
-
-
-
 
 
 
